@@ -15,6 +15,7 @@ PRODUCT_COPY_FILES += \
     vendor/samsung/a72q/proprietary/vendor/etc/audconf/OPEN/Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OPEN/Headset_cal.acdb \
     vendor/samsung/a72q/proprietary/vendor/etc/audconf/OPEN/Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OPEN/Speaker_cal.acdb \
     vendor/samsung/a72q/proprietary/vendor/etc/audconf/OPEN/workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/audconf/OPEN/workspaceFile.qwsp \
+    vendor/samsung/a72q/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
     vendor/samsung/a72q/proprietary/vendor/etc/qdcm_calib_data_ss_dsi_panel_S6E3FC3_AMS667YM01_FHD.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_ss_dsi_panel_S6E3FC3_AMS667YM01_FHD.xml \
     vendor/samsung/a72q/proprietary/vendor/etc/sensors/config/atoll_qrd_ak991x_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/atoll_qrd_ak991x_0.json \
     vendor/samsung/a72q/proprietary/vendor/etc/sensors/config/atoll_qrd_lsm6dso_0.json:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/config/atoll_qrd_lsm6dso_0.json \
@@ -44,6 +45,7 @@ PRODUCT_PACKAGES += \
     camera.qcom \
     com.samsung.chi.override \
     libsec2qc_conversion \
+    libswdap \
     libbauthserver \
     libbauthtzcommon \
     libegis_fp_normal_sensor_test \
